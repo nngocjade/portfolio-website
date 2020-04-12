@@ -51,14 +51,19 @@ header{
 }
 
 
-nav{
+nav.navbar-container{
+ overflow: hidden;
  background-color: var(--navbackground-color);
+ height: 10vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
 }
 
 nav > ul {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  
 }
 
 nav > ul > li {
@@ -69,6 +74,12 @@ nav > ul > li > a {
   text-decoration: none;
   flex-direction: row;
   text-transform: uppercase;
+  color: gray;
+  float: left;
+  text-align: center;
+  padding: 14px;
+  display: flex;
+
 }
 
 /* ========================================================
