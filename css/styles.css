@@ -19,6 +19,7 @@ height: 100%;
 }
 
 header{
+ position: relative;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -63,6 +64,14 @@ opacity: 0.4;
 
 }
 
+/* HEADER ICON */
+
+.header-icon{
+ position: absolute;
+}
+
+#
+
 /* ========================================================
                        NAV BAR
 ==========================================================*/
@@ -71,7 +80,7 @@ opacity: 0.4;
 nav.navbar-container{
  overflow: hidden;
  background-color: var(--navbackground-color);
- height: 15vh;
+ height: 10vh;
  display: flex;
  align-items: center;
  justify-content: space-evenly;
