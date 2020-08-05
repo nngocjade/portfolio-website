@@ -57,7 +57,7 @@ body {
 }
 
 .header-icon {
-  color: white;
+  color: rgb(119, 147, 51);
 }
 /* HEADER ICON */
 
@@ -66,9 +66,26 @@ body {
 ==========================================================*/
 
 nav.navbar-container {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dce3c4+0,fefefd+100 */
+  background: rgb(220, 227, 196); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(220, 227, 196, 1) 0%,
+    rgba(254, 254, 253, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(220, 227, 196, 1) 0%,
+    rgba(254, 254, 253, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(220, 227, 196, 1) 0%,
+    rgba(254, 254, 253, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce3c4', endColorstr='#fefefd',GradientType=0 ); /* IE6-9 */
   min-height: 63px;
   overflow: hidden;
-  background-color: var(--navbackground-color);
   height: 10vh;
   display: flex;
   align-items: center;
@@ -88,7 +105,7 @@ nav > ul > li > a {
   text-decoration: none;
   flex-direction: row;
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  color: rgb(119, 147, 51);
   float: left;
   text-align: center;
   padding: 14px;
