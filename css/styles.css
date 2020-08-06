@@ -136,9 +136,20 @@ section {
 .background-object {
   width: 50vh;
   height: 50vh;
-  position: fixed;
   border-radius: 50%;
   background-color: aquamarine;
+  position: absolute;
+  z-index: -1;
+}
+
+.background-object.one{
+  top: 20px;
+  right: 20px;
+}
+
+.background-object.two{
+  left: 60px;
+
 }
 /* ========================================================
                           ABOUT 
