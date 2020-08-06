@@ -129,11 +129,21 @@ nav > ul > li > a {
 section {
   display: block;
   padding: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.background-object {
+  width: 50vh;
+  height: 50vh;
+  position: fixed;
+  border-radius: 50%;
+  background-color: aquamarine;
 }
 /* ========================================================
                           ABOUT 
 ==========================================================*/
-
+  
 /* ========================================================
                           PROJECT
 ==========================================================*/
