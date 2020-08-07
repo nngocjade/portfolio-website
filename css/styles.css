@@ -87,7 +87,9 @@ nav.navbar-container {
   height: 10vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+  padding-right: 4em;
+  min-width: 70%;
 }
 
 nav > ul {
@@ -182,6 +184,7 @@ section {
                        SCREEN SIZES
 ==========================================================*/
 @media screen and (min-width: 501px){
+  
   nav > ul{
     flex-direction: row;
     justify-content: space-evenly;
@@ -191,6 +194,9 @@ section {
 @media screen and (max-width: 500px){
   nav.navbar-container{
     height: 70vh;
+    padding: 0;
+    justify-content: center;
+    
   }
   nav > ul{
     flex-direction: column;
